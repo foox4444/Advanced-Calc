@@ -136,8 +136,17 @@ class CalculatorApp:
     def _on_key_press(self, key):
         current = self.display_var.get() or "0"
 
-        if current == "Error" and key != "C":
-            return
+        if current == "Error":
+            if key == "C":
+                self.display_var.set("0")
+                self.preview_var.set("")
+                return
+            elif key.isdigit():
+                self.display_var.set(key)
+                self.preview_var.set("")
+                return
+            else:
+                return
 
         if key == "C":
             self.reset_next = False
