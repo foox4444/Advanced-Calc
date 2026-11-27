@@ -4,5 +4,6 @@ I used VS Code and Python. I made it using Tkinter. I had to fix a lot of typos,
 I tried to add more features without making it too complex, so I added themes since I use dark themes all the time.
 The features included:
 Order of operations, parentheses, exponents, basic math functions, memory stuff, history, themes, clipboard
+To get the calculator open, download main.py, then run the code.
 
 <img width="100" height="200" alt="image" src="https://github.com/user-attachments/assets/822296c5-e912-444f-9261-83f898b12a3f" />
